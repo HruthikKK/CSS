@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <article class="art1">
+        <h1>CSS Selectors</h1>
+        <br />
+        <h2>Article 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur error eos unde mollitia facilis voluptatum atque molestiae quisquam dolore.</p>
+        <br />
+        <h2>Article 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur error eos unde mollitia facilis voluptatum atque molestiae quisquam dolore.</p>
+        <br />
+        <h2>Article 3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur error eos unde mollitia facilis voluptatum atque molestiae quisquam dolore.</p>
+        <br /> 
+
+        
+        <!-- form elements do not inherit sytles automatically from its parent we shd specify 
+        font :inherit ..any other style element -->
+        <!-- remove input elements style in .css file to see changes -->
+        <h3>Suggestions</h3>
+        <form action="#" method="get">
+            <br>
+            <label for="Name">Name</label>
+            <input type="text" id="Name" name="Name">
+            <br><br>
+            <label for="feeling">How good is the article</label>
+            <select name="feeling" id="feeling">
+                <option value="Good">Good</option>
+                <option value="Moderate">Moderate</option>
+                <option value="Bad">Bad</option>
+            </select>
+            <br><br>
+            <input type="submit">
+        </form>
+    </article>
+
+    <br><br>
+    <ol>
+        <h2>Specificity Order</h2>
+        <li>id : #___</li>
+        <li>class : .____</li>
+        <li>element : element_name</li>
+        <h3>Use specificity calculator to precisely calculate specificity of a style element</h3>
+    </ol>
+    
+</body>
+</html>
