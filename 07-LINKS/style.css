@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #414141;
+    color: #fff;
+}
+
+header{
+    padding: 1rem 2rem ;
+}
+main{
+    padding: 0 2rem;
+    font-size: 1.5rem;
+}
+
+a{
+    /* text-decoration: underline; default */
+    /* cursor: pointer; default */
+    color: hsl(0, 0%, 100%); 
+    /* every prop color(visited,active..) of anchor is overwritten */
+}
+
+/* a:visited{
+    color: yellow;
+}  not much used*/ 
+
+a:hover{
+    color: hsl(0, 0%, 100%, 0.5); 
+    /* last one is opacity */
+}
+
+a:active{
+    color: red;
+}
+
+/* a:_____ pseudoclass has more specificity than a, so even if a:visited is placed before a a:visited make its effect */
+
+/* follow this order 
+    a - a:visited - a:hover - a.active
+*/
+
+/* a:focus can be used to focus links with reader i.e while using tabs in webpage */

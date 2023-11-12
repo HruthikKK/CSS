@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 5%;
+    background-color: #414141;
+    color: #fff;
+    font-size: 2rem;
+}
+.font{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+header{
+    padding-bottom: 5%;
+}
+ol{
+    padding-bottom:1rem;
+    /* list-style-type: none; */
+    list-style-position: inside;
+}
+ol li:nth-child(3){
+    color: red;
+}
+
+/* we can change numbering in ol by start,reversed in <ol> tag and value attribute in li tag */

@@ -1,0 +1,11 @@
+.p1{
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: justify; 
+    /* fills the line by extra space */
+}
+.p2{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-indent: 2em;
+}
