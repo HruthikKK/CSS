@@ -1,0 +1,34 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #414141;
+    color: #ffffff;
+    min-height: 100vh;
+}
+.container{
+    margin: 1rem 2rem;
+    min-width: 400px;
+    min-height: 400px;
+    margin-inline: auto;
+    border: 2px solid #ffffff;  
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.box{
+    background-color: #000000;
+    height: 100px;
+    width: 100px;
+    padding: 0.5rem;
+}
+
+table tbody:nth-child(even){
+    background-color: #414141;
+}

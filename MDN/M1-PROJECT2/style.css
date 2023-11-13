@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background: #ccc;
+  }
+  
+  article {
+    width: 210mm;
+    height: 297mm;
+    margin: 20px auto;
+    position: relative;
+  }
+  
+  address {
+    position: absolute;
+    bottom: 8mm;
+    right: 20mm;
+  }
+  
+  h1 {
+    position: absolute;
+    top: 12mm;
+    left: 20mm;
+    width: 128px;
+    height: 128px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 44px 0px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  /* Your CSS below here */
+
+  article img[src="./top-image.png"]{
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+  article img[src="./bottom-image.png"]{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  article img[src="./logo.png"]{
+    position: absolute;
+    top: 40mm;
+    left: 20mm;
+  }
+
+  article h1{
+    top: 40mm;
+  }
+
+  article{
+    border: 5px solid #000;
+    background-image:radial-gradient(#fff,#dedede,#a0a0a0);
+  }
+  

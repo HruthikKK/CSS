@@ -1,0 +1,23 @@
+*{
+    border: 0;
+    margin: 0;
+}
+body{
+    padding: 2rem;
+    background-color: #414141;
+    color: #fff;
+}
+body >div{
+    /* applied to div which is direct child of body */
+    border: 2px solid;
+}
+
+body >div >div[class="p2"]{
+    border: inherit;
+}
+
+body >p{
+    margin: revert;
+    /* makes prop to browser default */
+    al
+}

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    /* padding: 2rem; */
+    line-height: 3rem;
+    background-color: #414141;
+    color: #ffffff;
+}
+
+main{
+    /* margin: 1rem auto; */
+    color: #ffffff;
+    /* color is of no use bcz in body already applied */
+}
+p{
+    margin-top: 1rem;
+    background-color: #808080;
+}
+
+.opposite{
+    background-color: aquamarine;
+    margin-top: 2rem;
+    height: 200px;
+    /* margin top,height not applicable for inline element -> so use display : inline block , or block*/
+    margin-left: 1rem;
+    display: inline-block;
+    /* now margin top,height are applied*/
+}
+
+.logo{
+    margin: auto auto auto 1rem;
+}
+nav{
+    background-color: hsla(0, 0%, 100%, 0.101);
+    padding: 1rem;
+}
+nav ul{
+    list-style-type: none;
+    border-bottom: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    display: flex;
+    justify-content: end;
+    padding: 1rem 0;
+}
+
+nav ul li {
+    padding: 0.5rem;
+    margin: 0;
+}
+nav ul li:nth-child(3){
+    border-inline: 2px solid #fff;
+}
+
+nav ul a,a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul a:hover{
+    color: hsla(0, 0%, 100%,0.5);
+    text-decoration: underline
+}
+
+nav ul a:focus-visible,a:active{
+    color: #f00;
+}
+

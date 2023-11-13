@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #414141;
+    color: #ffffff;
+    padding: 2rem;
+}
+.container{
+    /* for containing float element and other elements */
+    background-color: rgb(113, 197, 169);
+    border: 2px solid #ffffff;
+    padding: 1rem;
+    /* remove below style to see overflow of float block */
+    display: flow-root;
+}
+.container p{
+    font-size: 1rem;
+}
+.fElement{
+    width: 20vw;
+    height: 20vw;
+    background-color: #777676;
+}
+.floatL{
+    float: left;
+    margin: 0 0.5rem 0 0;
+}
+.floatR{
+    float: right;
+    margin: 0 0 0 0.5rem;
+}
+p{
+    font-size: 1.25rem;
+    text-align: justify;
+}
