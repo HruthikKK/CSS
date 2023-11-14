@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #414141;
+    color: #fff;
+}
+section{
+    width: 600px;
+    height: 350px;
+    background-color: rgb(135, 135, 223);
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+.imgC{
+    width: 40%;
+    float: right;
+    padding-top: 2rem;
+
+}
+.float{
+    width: 100%;
+    float: right;
+}
+.content {
+    position: relative;
+    width: 60%;
+    height: 100%;
+    border: 2px solid #006100;
+}
+
+.para {
+padding: 1rem;
+margin: 0;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+}

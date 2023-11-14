@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        header{
+            display: flex;
+            font-size: 2rem;
+            gap: 1rem;
+            flex-wrap: wrap;
+            padding: 1rem;
+            align-items: center;
+            background-color: #bababa;
+        }
+        header div{
+            flex:1;
+        }
+        header>div:first-child{
+            padding-left: 1rem;
+            flex: 3;
+            font-size: 3rem;
+        }
+        header ul{
+            display: flex;
+            list-style-type: none;
+            gap: 0.5rem;
+            line-height: 3.5rem;
+        }
+        header ul li{
+            /* border: 2px solid #fff; */
+            width: 8rem;
+            text-align: center;
+        }
+        header ul li a{
+            width: 100%;
+            display: block;
+            border-radius: 6px;
+            text-decoration: none;
+            color: #fff;
+        }
+        header ul li a:visited{
+            text-decoration: none;
+            color: #fff;
+        }
+        header ul li a:hover,a:focus{
+            background-color: #5b5b5b;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="mainL">aa.com</div>
+        <div class="rF">
+            <ul>
+                <li><a href="#">LogIn</a></li>
+                <li><a href="#">SignUp</a></li>
+            </ul>
+        </div>
+    </header>
+</body>
+</html>
